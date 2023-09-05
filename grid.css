@@ -1,0 +1,36 @@
+.grid1{
+    background-color: blue;
+}
+.grid2{
+    background-color: aqua;
+}
+.grid3{
+    background-color: green;
+}
+.grid4{
+    background-color: lime;
+}
+.grid5{
+    background-color: yellow;
+}
+.grid6{
+    background-color: orange;
+}
+.grid7{
+    background-color: red;
+}
+.grid8{
+    background-color: pink;
+}
+.grid9{
+    background-color: purple;
+}
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+input[type=".grid8"]:hover{
+    background-color: blue;
+}

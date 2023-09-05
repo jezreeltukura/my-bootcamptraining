@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+.grid-1, .grid-2, .grid-3{
+
+}
+.color-change{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    animation: colorChange 3s infinite;
+    height: 60rem;
+    margin-bottom: 10rem;
+}
+@keyframes colorChange{
+    100%{
+        background-color: blue;
+        color: #fff;
+    }
+   
+   background-color: red;
+   color: #fff; 
+    
+}
